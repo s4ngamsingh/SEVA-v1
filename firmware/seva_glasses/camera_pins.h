@@ -3,10 +3,11 @@
 #define CAMERA_PINS_H
 
 // =============================================================================
-// SELECT ONE BOARD MODEL BY UNCOMMENTING IT (DEFAULT: CAMERA_MODEL_ESP32S3_EYE / FREENOVE)
+// SELECT ONE BOARD MODEL BY UNCOMMENTING IT
 // =============================================================================
-#define CAMERA_MODEL_ESP32S3_EYE
-// #define CAMERA_MODEL_XIAO_ESP32S3
+// #define CAMERA_MODEL_ESP32S3_EYE      // For generic bulky ESP32-S3 CAM boards
+#define CAMERA_MODEL_XIAO_ESP32S3        // For Seeed Studio XIAO ESP32S3 Sense (Recommended)
+
 
 #if defined(CAMERA_MODEL_ESP32S3_EYE)
   #define PWDN_GPIO_NUM  -1

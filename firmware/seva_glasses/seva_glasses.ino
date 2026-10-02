@@ -26,12 +26,21 @@ const char* WIFI_PASSWORD = "MyPassword123";     // Replace with your hotspot pa
 const char* MDNS_HOSTNAME = "seva";               // Accessible at http://seva.local
 
 // =============================================================================
-// 2. HARDWARE PIN DEFINITIONS (ESP32-S3 SAFE EXTERNAL PINS)
+// 2. HARDWARE PIN DEFINITIONS (ADAPTS TO SELECTED BOARD)
 // =============================================================================
-#define PIN_TOF_SDA     1     // I2C Data line for VL53L0X
-#define PIN_TOF_SCL     2     // I2C Clock line for VL53L0X
-#define PIN_HAPTIC      3     // Output to NPN Transistor Base (via 1k resistor)
-#define PIN_BUTTON      21    // Tactile push button (Active LOW, INPUT_PULLUP)
+#if defined(CAMERA_MODEL_XIAO_ESP32S3)
+  // Seeed Studio XIAO ESP32S3 Sense Pins
+  #define PIN_TOF_SDA     5     // D4 (I2C SDA)
+  #define PIN_TOF_SCL     6     // D5 (I2C SCL)
+  #define PIN_BUTTON      2     // D1 (Tactile button to GND, INPUT_PULLUP)
+  #define PIN_HAPTIC      3     // D2 (Output to NPN Transistor Base)
+#else
+  // Generic ESP32-S3 CAM Board Pins
+  #define PIN_TOF_SDA     1     // I2C Data line for VL53L0X
+  #define PIN_TOF_SCL     2     // I2C Clock line for VL53L0X
+  #define PIN_BUTTON      21    // Tactile push button (Active LOW, INPUT_PULLUP)
+  #define PIN_HAPTIC      3     // Output to NPN Transistor Base (via 1k resistor)
+#endif
 
 // =============================================================================
 // 3. HAZARD THRESHOLDS (MILLIMETERS)
