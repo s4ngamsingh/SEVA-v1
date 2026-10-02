@@ -44,7 +44,7 @@ SEVA/
 
 ---
 
-### Step 2: Flash the ESP32-S3-CAM Firmware
+### Step 2: Flash the XIAO ESP32S3 Sense Firmware
 
 1. Install **Arduino IDE** (version 2.x recommended).
 2. Go to **File > Preferences** and add the ESP32 board manager URL:
@@ -56,13 +56,13 @@ SEVA/
    * **Adafruit_VL53L0X** (by Adafruit)
 5. Open `firmware/seva_glasses/seva_glasses.ino` in Arduino IDE.
 6. Configure your board settings under **Tools**:
-   * **Board:** `ESP32S3 Dev Module`
-   * **PSRAM:** `OPI PSRAM` (or Enabled)
-   * **Flash Size:** `16MB (128Mb)`
-   * **Upload Speed:** `921600`
+   * **Board:** `XIAO_ESP32S3` *(Found under Tools > Board > esp32)*
+   * **PSRAM:** `OPI PSRAM`
    * **USB CDC On Boot:** `Enabled`
+   * **Upload Speed:** `921600`
 7. Update `WIFI_SSID` and `WIFI_PASSWORD` at the top of the file to match your phone's mobile hotspot.
-8. Connect the ESP32-S3 to your computer via USB-C and click **Upload**.
+8. Connect the XIAO ESP32S3 Sense via USB-C and click **Upload**.
+
 
 ---
 
