@@ -1,5 +1,5 @@
 # SEVA: Smart Eyewear for Visual Assistance
-## Hackathon Execution Plan (Argus-Inspired Wireless MVP)
+## Hackathon Execution Plan
 
 > **Project Goal:** Build a working, wireless, wearable assistive vision device under **₹2,100** that delivers split-architecture edge-reflex hazard alerts and on-demand cloud scene intelligence using Google Gemini Vision.
 
