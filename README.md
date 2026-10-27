@@ -87,3 +87,13 @@ SEVA/
    * **Automatic Speech Output:** Gemini detects the language automatically and speaks back in the **exact same language and native accent** through your Bluetooth speaker.
    * **Silent Button Tap:** If you press the button without speaking, it automatically speaks a general scene description in your configured `DEFAULT_LANGUAGE` (Hindi/Marathi/Gujarati).
 
+---
+
+## Author & Innovator
+
+**Sangam Singh**
+* Solo Innovator & Project Architect
+* B.Tech in Computer Engineering, **Government Engineering College, Daman**
+* GitHub: [@s4ngamsingh](https://github.com/s4ngamsingh)
+
+
