@@ -1,5 +1,4 @@
 # SEVA: Smart Eyewear for Visual Assistance
-## Hackathon Execution Plan
 
 > **Project Goal:** Build a working, wireless, wearable assistive vision device under **₹2,100** that delivers split-architecture edge-reflex hazard alerts and on-demand cloud scene intelligence using Google Gemini Vision.
 
@@ -118,20 +117,4 @@ flowchart TD
 - [ ] **Step 5.3:** Create a 1-page backup poster/slide and record a 30-second backup video on phone in case venue Wi-Fi fails.
 
 ---
-
-## 5. The Hackathon Demo Script (2-Minute Pitch)
-
-1. **The Hook (0:00 – 0:25):**
-   * *"Over 40 million visually impaired people worldwide rely on white canes that cannot read labels, identify faces, or detect head-level obstacles. Existing assistive glasses like OrCam cost over ₹3,00,000, weigh down the face, and run out of battery in an hour."*
-2. **The Innovation (0:25 – 0:50):**
-   * *"Inspired by the 2025 Microsoft Imagine Cup Champion 'Argus', I designed and built **SEVA** alone using the thumbnail-sized **Seeed Studio XIAO ESP32S3 Sense**—a split-architecture assistive vision device that weighs under 20 grams total, is 100% wireless, and costs under ₹2,100."*
-3. **Live Demonstration 1: Instant Edge Reflex (0:50 – 1:15):**
-   * Put on glasses. Walk towards the edge of the judges' table or step.
-   * Point out the downward 45° ToF sensor: *"Without touching the internet, the glasses instantly vibrate to warn me of the drop-off in under 40 milliseconds."*
-4. **Live Demonstration 2: Multilingual Gemini Intelligence (1:15 – 1:45):**
-   * Look at a medicine strip or currency note.
-   * Tap the temple button and ask in Marathi, Hindi, or Gujarati: *"हे कोणते औषध आहे?"*
-   * Speaker says aloud in authentic Marathi: *"हे डोलो ६५० चे पाकीट आहे, जे ताप आणि अंगदुखीसाठी वापरले जाते. एक्सपायरी ऑक्टोबर २०२६ आहे."*
-5. **The Punchline (1:45 – 2:00):**
-   * *"By offloading heavy AI to Google Gemini and using the phone already in every user's pocket, I slashed the cost by 99% without sacrificing a single gram of comfort. I am Sangam Singh, Computer Engineering student at Government Engineering College, Daman. Thank you!"*
 
